@@ -1,35 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<script src="member.js" type="text/javascript"></script>
-<style>
-body{
-	text-align: center;	
-}
-#text_page {
-	display:inline-block;
-	text-align:left;
-}
-body div form div {
-	margin: 30px;
-}
 
-body div form #chk {
-	text-align:center;
-}
-label {
-	display:inline-block;
-	float:left;
-	width:160px;
-	font-weight:bold;
-}
-</style>
-<body>
 	<div id="text_page">	
 		<form method="get" action="MemberServlet" name="mb">
 			<div>
@@ -108,5 +79,3 @@ label {
 			</div>
 		</form>
 	</div>
-</body>
-</html>
